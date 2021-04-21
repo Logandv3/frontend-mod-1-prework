@@ -39,15 +39,33 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+The code indicates a condition to evaluate with the if statement.  If the condition is true the empty variable bearClothing
+will have a value of hat.  If it is false the interpreter moves on to the next condition that will instead assign scarf
+as the value for bearClothing.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+scarf
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+The code indicates another condition to evaluate with an if statement.  If 1 is selected then it will be true and read out the
+first message.  If false it will continue evaluating the other conditions until the statement is true for the value selected.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+You run as fast as you can into the next room. It's full of snakes!
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+You tell the bear the " + bearClothing + " is too small and it starts to cry!
+
 7. What is your favorite ending?
+
+You stay with the bear and become it's best friend!
+
 */
