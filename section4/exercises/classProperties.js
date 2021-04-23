@@ -16,11 +16,29 @@ Make sure to run the file with node in your command line.
   // You do not need any proerties at this time!!
 
 // Prompt 1: Dog
+/*
+class Dog {
+
+}
+var favorite = new Dog("Pepperoni","Giraffe", "Red Hollow", "favorite");
+console.log(favorite);
 
 // Prompt 2: Snack
 
+class Snack {
+
+}
+var brunch = new Snack("mango", "pretzel", "Jicima", "brunch");
+console.log(brunch);
+
 // Prompt 3: Shirt
 
+class Shirt {
+
+}
+var shirtDetail = new Shirt("black", "cotton", "Nike", "shirtDetail");
+console.log(shirtDetail);
+*/
 //-------------------
 // Part 2: Properties
 //-------------------
@@ -33,11 +51,41 @@ Make sure to run the file with node in your command line.
   // Log that variable to the console.
 
 // Prompt 1: Dog
+/*
+class Dog {
+  constructor() {
+    this.snack =
+    this.toy =
+    this.place =
+  }
+}
+var favorite = new Dog("Pepperoni","Giraffe", "Red Hollow", "favorite");
+console.log(favorite);
 
 // Prompt 2: Snack
 
+class Snack {
+  constructor() {
+    this.sweet =
+    this.salty =
+    this.healthy=
+  }
+}
+var brunch = new Snack("mango", "pretzel", "Jicima", "brunch");
+console.log(brunch);
+
 // Prompt 3: Shirt
 
+class Shirt {
+  constructor() {
+    this.color =
+    this.material =
+    this.brand =
+  }
+}
+var shirtDetail = new Shirt("black", "cotton", "Nike", "shirtDetail");
+console.log(shirtDetail);
+*/
 //-------------------
 // Part 3: Dynamic Properties
 //-------------------
@@ -52,6 +100,36 @@ Make sure to run the file with node in your command line.
 
 // Prompt 1: Dog
 
+class Dog {
+  constructor(snack, toy, place) {
+    this.snack = snack;
+    this.toy = toy;
+    this.place = place;
+  }
+}
+var favorite = new Dog("Pepperoni", "Giraffe", "Red Hollow", "favorite");
+console.log(favorite);
+
 // Prompt 2: Snack
 
+class Snack {
+  constructor(sweet, salty, healthy) {
+    this.sweet = sweet;
+    this.salty = salty;
+    this.healthy = healthy;
+  }
+}
+var brunch = new Snack("mango", "pretzel", "jicima", "brunch");
+console.log(brunch);
+
 // Prompt 3: Shirt
+
+class Shirt {
+  constructor(color, material, brand) {
+    this.color = color;
+    this.material = material;
+    this.brand = brand;
+  }
+}
+var shirtDetail = new Shirt("black", "cotton", "Nike", "shirtDetail");
+console.log(shirtDetail);
