@@ -19,7 +19,7 @@ for (var i = 0; i < animals.length; i++) {
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
 
-for (var i=0; i<animals.length; i++) {
+for (var i = 0; i < animals.length; i++) {
   console.log('The ' + animals[i] + ' is awesome!');
 };
 
@@ -29,7 +29,7 @@ for (var i=0; i<animals.length; i++) {
 
 var foods = ['Mango','Turnip','Taro','Poutine'];
 
-for (var i=0; i<foods.length; i++) {
+for (var i = 0; i < foods.length; i++) {
   console.log('Add ' + foods[i] + ' to shopping list');
 };
 
@@ -38,7 +38,7 @@ for (var i=0; i<foods.length; i++) {
 
 var nums = [3,6,9];
 
-for (var i=0; i<nums.length; i++) {
+for (var i = 0 ; i < nums.length; i++) {
   console.log(nums[i] * 2);
 };
 
@@ -47,7 +47,7 @@ for (var i=0; i<nums.length; i++) {
 // each name except the first two.
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
-for (var i=2; i<names.length; i++) {
+for (var i = 2; i < names.length; i++) {
   console.log('Happy Birthday' + names[i] +'!');
 };
 
@@ -63,7 +63,7 @@ for (var i=2; i<names.length; i++) {
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
-for (var i=0; i<ages.length; i++) {
+for (var i = 0; i <ages.length; i++) {
   if (ages[i] >= 18) {
     console.log('Make sure to get out there and vote!');
   } else {
