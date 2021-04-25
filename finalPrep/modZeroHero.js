@@ -132,19 +132,28 @@ class SuperHero {
     this.superPower = superPower;
     this.age = age;
   }
-  static archNemesis = "The Syntax Error";
-  static powerLevel = 100;
-  static energyLevel = 50;
+  //static archNemesis = "The Syntax Error";
+  static archNemesis(){
+    console.dir("The Syntax Error");
+  }
+  //static powerLevel = 100;
+  static powerLevel() {
+    console.dir(100);
+  }
+  //static energyLevel = 50;
+  static energyLevel() {
+    console.dir(50);
+  }
 
 
   sayName() {
     this.name = "Fish Man";
   }
   maximizeEnergy() {
-    console.log(energyLevel = 1000);
+    console.log(1000);
   }
   gainPower() {
-    console.log(powerLevel + powerLevel);
+    console.log(100);
   }
 }
 
@@ -154,11 +163,15 @@ var clobberGirl = new SuperHero("Clobber Girl", "Super Strength", 8, ); // "clob
 stretchDude.sayName();
 console.log(stretchDude);
 
-clobberGirl.maximizeEnergy();
-console.log(energyLevel);
+SuperHero.archNemesis();
+SuperHero.powerLevel();
+SuperHero.energyLevel();
 
-//clobberGirl.gainPower();
-//console.log(clobberGirl);
+clobberGirl.maximizeEnergy();
+console.log();
+
+clobberGirl.gainPower();
+console.log();
 
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
