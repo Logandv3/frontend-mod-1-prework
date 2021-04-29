@@ -131,23 +131,26 @@ class SuperHero {
     this.name = name;
     this.superPower = superPower;
     this.age = age;
+    this.archNemesis = "The Syntax Error";
+    this.powerLevel = "100";
+    this. energyLevel = "50"
   }
   //static archNemesis = "The Syntax Error";
-  static archNemesis(){
-    console.dir("The Syntax Error");
-  }
+  //static archNemesis(){
+    //console.dir("The Syntax Error");
+  //}
   //static powerLevel = 100;
-  static powerLevel() {
-    console.dir(100);
-  }
+  //static powerLevel() {
+    //console.dir(100);
+  //}
   //static energyLevel = 50;
-  static energyLevel() {
-    console.dir(50);
-  }
+  //static energyLevel() {
+    //console.dir(50);
+  //}
 
 
   sayName() {
-    this.name = "Fish Man";
+    this.name = console.log(this.name);
   }
   maximizeEnergy() {
     console.log(1000);
@@ -160,12 +163,19 @@ class SuperHero {
 var stretchDude = new SuperHero("Stretch Dude", "Elasticity", 10, ); // "stretchDude"
 var clobberGirl = new SuperHero("Clobber Girl", "Super Strength", 8, ); // "clobberGirl"
 
-stretchDude.sayName();
 console.log(stretchDude);
+console.log(clobberGirl);
 
-SuperHero.archNemesis();
-SuperHero.powerLevel();
-SuperHero.energyLevel();
+
+
+stretchDude.sayName();
+
+clobberGirl.sayName();
+
+
+//SuperHero.archNemesis();
+//SuperHero.powerLevel();
+//SuperHero.energyLevel();
 
 clobberGirl.maximizeEnergy();
 console.log();
